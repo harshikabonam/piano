@@ -1,0 +1,28 @@
+.bad
+{
+    /* border: black; */
+    padding:5% 0 0 28%;
+}
+.row
+{
+    width: 100%;
+}
+.cad
+{
+    padding:20px 0 0 40%;
+    float: left;
+}
+.dad
+{
+    padding:20px 0 0 200px;
+}
+.box-one
+{
+ /* background-color: blue; */
+ padding: 10px 0 0 80px;
+ border:10px solid black;
+ margin: 100px 350px; 
+}
+.cad{
+    padding:20px 0 30px 90px;
+}

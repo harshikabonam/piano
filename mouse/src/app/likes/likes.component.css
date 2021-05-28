@@ -1,0 +1,50 @@
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .row
+  {
+    width:100%;
+    padding:0 0 0 90%;
+  }
+  .x
+  {
+    float:left;
+    padding:0 30px;
+  }
+  .d
+{
+    padding:3% 0 0 49%;
+}
+.b
+{
+  padding:10% 0 0 42%;
+}
+body{
+  background-color:lightseagreen;
+  height:100vh;
+  width:100wh;
+}
+.po
+{
+  padding: 5% 0 0 45%;
+}
+.e
+{
+  padding: 5% 0 0 43%;
+}

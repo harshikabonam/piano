@@ -1,0 +1,118 @@
+<body>   
+
+    
+    <!-- <button (click)="onClick()">button</button>      -->
+<div class="row zxy">
+    <!-- <div class="col-3 x"> -->
+        <a style="font-size: 50px;color: black;" (click)="exit()" routerLink="/Main" routerLinkActive="active" ><img src="../../assets/clo.png"></a>
+        <!-- <a style="font-size: 50px;color: black;" routerLink="/Menu" routerLinkActive="active">Menu</a> -->
+      </div>
+<div *ngIf="!xcv">
+<div class="xyz">
+<div class="row ab">
+    <div class="col-5 byt">
+       <h1 style="color: blanchedalmond;"> Now Playing</h1><br>
+       <div class="row">
+           <div class="col-6">
+<p style="color: blanchedalmond;font-size: 30px;">Note</p>
+</div>
+<div class="col-6">
+<p style="color: blanchedalmond;font-size: 30px;">key</p>
+</div>
+</div>
+
+</div>
+<div *ngIf="!xlm">
+<div class="col-7 an">
+<h1 style="padding-left: 20px;">For Quiz</h1>
+<a style="font-size: 50px;color: black;" routerLink="/Quiz"  routerLinkActive=""> <img src="../../assets/quiz.gif"></a>
+
+  <!-- <a (click)="but()"> <img src="../../assets/quiz.gif"></a> -->
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div *ngIf="!music">
+
+</div>
+
+<div *ngIf="xcv">
+    <div class="xyz">
+    <div class="row ab">
+        <div class="byt">
+           <h1 style="color: blanchedalmond;"> Now Playing</h1><br>
+           <div class="row">
+               <div class="col-6">
+    <p style="color: blanchedalmond;font-size: 30px;">{{pl}}</p>
+    </div>
+    <div class="col-6">
+    <p style="color: blanchedalmond;font-size: 30px;">{{key}}</p>
+    </div>
+    </div>
+    </div>
+    <div *ngIf="music">
+        <img src="../../assets/music1.gif">
+        </div>
+   <div *ngIf="!xlm">
+    <div class="col-7 an">
+        <h1 style="padding-left: 20px;">For Quiz</h1>
+        <a style="font-size: 50px;color: black;" routerLink="/Quiz"  routerLinkActive="" (click)="funct()"> <img src="../../assets/quiz.gif"></a>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+<div class="row abc1">
+    <div class="col-12 ">
+<ul class="set">
+    <li class="white e" (click)="c3()"></li>
+    <li class="black ds" (click)="c31()"></li>
+    <li class="white d" (click)="d3()"></li>
+    <li class="black cs" (click)="d31()"></li>
+    <li class="white c" (click)="e3()"></li>
+    <li class="white b" (click)="f3()"></li>
+    <li class="black as" (click)="f31()"></li>
+    <li class="white a" (click)="g3()"></li>
+    <li class="black gs" (click)="g31()"></li>
+    <li class="white g" (click)="a3()"></li>
+    <li class="black fs" (click)="a31()"></li>
+    <li class="white f" (click)="b3()"></li>
+    <li class="white e" (click)="c4()"></li>
+        <li class="black ds" (click)="c41()"></li>
+        <li class="white d" (click)="d4()"></li>
+        <li class="black cs" (click)="d41()"></li>
+        <li class="white c" (click)="e4()"></li>
+        <li class="white b" (click)="f4()"></li>
+        <li class="black as" (click)="f41()"></li>
+        <li class="white a" (click)="g4()"></li>
+        <li class="black gs" (click)="g41()"></li>
+        <li class="white g" (click)="a4()"></li>
+        <li class="black fs" (click)="a41()"></li>
+        <li class="white f" (click)="b4()"></li>
+        <li class="white e" (click)="c5()"></li>
+            <li class="black ds" (click)="c51()"></li>
+            <li class="white d" (click)="d5()"></li>
+            <li class="black cs" (click)="d51()"></li>
+            <li class="white c" (click)="e5()"></li>
+            <li class="white b" (click)="f5()"></li>
+            <li class="black as" (click)="f51()"></li>
+            <li class="white a" (click)="g5()"></li>
+            <li class="black gs" (click)="g51()"></li>
+            <li class="white g" (click)="b5()"></li>
+            <li class="black fs" (click)="a51()"></li>
+            <li class="white f" (click)="a5()"></li>
+           
+  </ul>
+</div>
+</div>
+<!-- <button type="text" onkeypress="myFunction()">harshika</button>
+<script>
+    function myFunction() {
+        console.log("harshika");
+      alert("You pressed a key inside the input field");
+    }
+    </script> -->
+</body>

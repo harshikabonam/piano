@@ -1,0 +1,39 @@
+<body>
+<div class="row">
+    <!-- <div class="col-3 x"> -->
+<!-- <a style="font-size: 50px;color: black;" routerLink="/Menu" routerLinkActive="active">Menu</a> -->
+<a style="font-size: 50px;color: black;" routerLink="/Main" routerLinkActive="active"><img src="../../assets/close.jpg"></a>
+</div>
+<!-- <div class="col-3 x">
+<a style="font-size: 50px;color: black;" routerLink="/likes"  routerLinkActive=""> Likes</a>
+</div>
+<div class="col-6 x">
+    <a style="font-size: 50px;color: black;" routerLink="/game"  routerLinkActive=""> Piano Game</a>
+    </div>
+</div> -->
+<div *ngIf="!a">
+    <!-- <img src="../../assets/like.jpg" class="po"> -->
+    </div>
+    <div class="row e">
+        <h1>Like me 5 or 10 times</h1>
+    </div>
+<div class="row d">
+    <button class="button" (click)= "fun()">Like </button>
+</div>
+
+<div *ngIf="a">
+
+</div>
+
+
+<div class="po">
+    <img [src]="imageUrl" (click)='myfun($event)'>
+    <img [src]="picUrl" (click)='myfun($event)'>
+  </div>
+<!-- <div *ngIf="!click">
+  <button class="button" (click)= "funny()">Like </button>
+</div>
+<div *ngIf="click">
+    <button (click)= "funny()">Like </button>
+  </div> -->
+</body>

@@ -1,0 +1,226 @@
+<div class="row zxy">
+  <div *ngIf="!abcd">
+    <!-- <div class="col-3 x"> -->
+        <a style="font-size: 50px;color: black;" routerLink="/game" routerLinkActive="active"><img src="../../assets/clo.png"></a>
+        <!-- <a style="font-size: 50px;color: black;" routerLink="/Menu" routerLinkActive="active">Menu</a> -->
+      </div>
+      </div>
+      <!-- <h1 style="padding-left: 90%;padding-top: 10px;">hint</h1> -->
+      
+      <div class="row">
+        <div *ngIf="!abcd">
+        <div class="col-6 bc">
+      <a (click)="play()"><img src="../../assets/play.png"></a>
+    </div>
+      </div>
+    <div *ngIf="!val">
+      <div *ngIf="!abcd">
+    <div class="col-6 bvc">
+      <div class="dropdown">
+       <button class="but"> Hint</button>
+        <div class="dropdown-content">
+        <p style="  cursor: pointer;" data-toggle="modal" data-target="#myModal">Hint 1</p>
+        <p  style="  cursor: pointer;" data-toggle="modal" data-target="#myModal">Hint 2</p>
+        <!-- <p  data-toggle="modal" data-target="#myModal">Hint 3</p> -->
+        </div>
+      </div>
+      </div>
+  </div>
+    </div>
+  <!-- </div> -->
+  <div *ngIf="!abcd">
+  <div *ngIf="val">
+    <div class="col-6 bvc">
+      <div class="dropdown">
+        <button class="but">Hint</button>
+        <div class="dropdown-content">
+        <p style="  cursor: pointer;" data-toggle="modal" data-target="#my1">Hint 1</p>
+        <p  style="  cursor: pointer;" data-toggle="modal" data-target="#my2">Hint 2</p>
+        <!-- <p  data-toggle="modal" data-target="#my3">Hint 3</p> -->
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <!-- <button (click)="notes()">Notes</button> -->
+        <!-- {{result}} -->
+        <div *ngIf="per">
+          <div *ngIf="!abcd">
+<div class="row abc1">
+    <div class="col-12 ">
+     
+<ul class="set">
+    <li class="white e" (click)="c3()" style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">c3</li>
+    <li class="black ds" (click)="c31()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#c3</li>
+    <li class="white d" (click)="d3()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">d3</li>
+    <li class="black cs" (click)="d31()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#d3</li>
+    <li class="white c" (click)="e3()" style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">e3</li>
+    <li class="white b" (click)="f3()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">f3</li>
+    <li class="black as" (click)="f31()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#f3</li>
+    <li class="white a" (click)="g3()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">g3</li>
+    <li class="black gs" (click)="g31()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#g3</li>
+    <li class="white g" (click)="a3()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">a3</li>
+    <li class="black fs" (click)="a31()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#a3</li>
+    <li class="white f" (click)="b3()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">b3</li>
+    <li class="white e" (click)="c4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">c4</li>
+        <li class="black ds" (click)="c41()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#c4</li>
+        <li class="white d" (click)="d4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">d4</li>
+        <li class="black cs" (click)="d41()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#d4</li>
+        <li class="white c" (click)="e4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">e4</li>
+        <li class="white b" (click)="f4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">f4</li>
+        <li class="black as" (click)="f41()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#f4</li>
+        <li class="white a" (click)="g4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">g4</li>
+        <li class="black gs" (click)="g41()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#g4</li>
+        <li class="white g" (click)="a4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">a4</li>
+        <li class="black fs" (click)="a41()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#a4</li>
+        <li class="white f" (click)="b4()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">b4</li>
+        <li class="white e" (click)="c5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">c5</li>
+            <li class="black ds" (click)="c51()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#c5</li>
+            <li class="white d" (click)="d5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">d5</li>
+            <li class="black cs" (click)="d51()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#d5</li>
+            <li class="white c" (click)="e5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">e5</li>
+            <li class="white b" (click)="f5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">f5</li>
+            <li class="black as" (click)="f51()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#f5</li>
+            <li class="white a" (click)="g5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">g5</li>
+            <li class="black gs" (click)="g51()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#g5</li>
+            <li class="white g" (click)="b5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">a5</li>
+            <li class="black fs" (click)="a51()"style="font-size: 14px;padding: 80px 0 0 0;font-weight: 700;color:white">#a5</li>
+            <li class="white f" (click)="a5()"style="font-size: 14px;padding: 190px 0 0 15px;font-weight: 900;">b5</li>
+  </ul>
+
+</div>
+</div>
+</div>
+</div>
+<div *ngIf="!abcd">
+<div *ngIf="!per">
+    <div class="row abc1">
+        <div class="col-12 ">
+    <ul class="set">
+        <li class="white e"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="black ds"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white d"   data-toggle="modal" data-target="#myModal"></li>
+        <li class="black cs"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white c"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white b"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="black as"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white a"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="black gs"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white g"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="black fs"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white f"  data-toggle="modal" data-target="#myModal"></li>
+        <li class="white e"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="black ds"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white d"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="black cs"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white c"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white b"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="black as"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white a"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="black gs"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white g"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="black fs"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white f"  data-toggle="modal" data-target="#myModal"></li>
+            <li class="white e"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="black ds"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white d"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="black cs"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white c"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white b"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="black as"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white a"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="black gs"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white g"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="black fs"  data-toggle="modal" data-target="#myModal"></li>
+                <li class="white f"  data-toggle="modal" data-target="#myModal"></li>
+      </ul>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">First hit the play button </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="modal fade" id="my1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">{{sor}}</h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="modal fade" id="my2" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">{{k}}</h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- <div class="container">
+    <div class="modal fade" id="my3" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">3</h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+   -->
+
+   <div *ngIf="abcd">
+    <!-- <h1 style="font-size: 50px;">You lost</h1> -->
+    <!-- <div class="row">
+    <img src="../../assets/tryagain.gif">
+</div> -->
+<div class="box-one">
+  <div class="row bad">
+          <h1 style="font-size: 50px;">You Score</h1>
+  </div>
+  <a style="padding: 0 0 0 200px;font-size: 90px;">{{rest}}</a>
+  <div class="row ">
+  <div class="col-6 cad">
+  <!-- <button>Exit</button> -->
+  <button style="font-size: 40px;color: black;;background-color: #4CAF50; border: none;" routerLink="/Main" routerLinkActive="active">Exit</button>
+  </div>
+  <div class="col-6 dad">
+      <!-- <button (click)="again()" style="font-size: 40px;color: black;;background-color: #4CAF50; border: none;" >Tryagain</button> -->
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  </div>
+  

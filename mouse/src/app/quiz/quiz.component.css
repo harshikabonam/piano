@@ -1,0 +1,181 @@
+* {
+    box-sizing:border-box
+  }
+body {
+    margin:0;
+    /* background:#97908c; */
+    height:100vh;
+    widows: 100wh;
+  }
+/* ul{
+    top:250px;
+    left:500px;
+  } */
+  .row
+  {
+    width:100%; 
+  /* padding:350px 0 0 100px; */
+   /* background:#160801; */
+   /* float:left; */
+  }
+  .col-4
+  {
+    float: left;
+  }
+  .abc1
+  {
+    padding:10px 0 0 100px;
+  }
+
+  .d
+  {
+    padding:0 0 0 60px;
+  }
+  .but{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  .but:hover {opacity: 1}
+ .xyz{
+  padding:10px 0 0 100px;
+  /* float:left; */
+ }
+ 
+  ul {
+    height:18.875em;
+    /* top:250px; */
+     width:92%;
+    /* left:50px; */
+    padding:3em 0 0 3em;
+    /* position:relative; */
+    border:1px solid #160801;
+    border-radius:1em;
+    background:linear-gradient(to bottom right,rgba(0,0,0,0.3),rgba(0,0,0,0)),url(../../assets/wood.png);
+    box-shadow:0 0 50px rgba(0,0,0,0.5) inset,0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5)
+  }
+  /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png */
+  .zxy
+  {
+   
+    padding:0 0 0 95%;
+  }
+  .abc1
+  {
+    padding:10px 0 0 50px;
+  }
+  .p
+  {
+    float:left;
+  }
+  li {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative; 
+     float:left
+  }
+  ul .white {
+    height:16em;
+    width:3.7em;
+    z-index:1;
+    border-left:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    border-radius:0 0 5px 5px;
+    box-shadow:-1px 0 0 rgba(255,255,255,0.8) inset,0 0 5px #ccc inset,0 0 3px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,#eee 0%,#fff 100%)
+  }
+  
+  ul .white:active {
+    border-top:1px solid #777;
+    border-left:1px solid #999;
+    border-bottom:1px solid #999;
+    box-shadow:2px 0 3px rgba(0,0,0,0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,#fff 0%,#e9e9e9 100%)
+  }
+  
+  .black {
+    height:8em;
+    width:2em;
+    margin:0 0 0 -1em;
+    z-index:2;
+    border:1px solid #000;
+    border-radius:0 0 3px 3px;
+    box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset,0 -5px 2px 3px rgba(0,0,0,0.6) inset,0 2px 4px rgba(0,0,0,0.5);
+    background:linear-gradient(45deg,#222 0%,#555 100%)
+  }
+  
+  .black:active {
+    box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset,0 -2px 2px 3px rgba(0,0,0,0.6) inset,0 1px 2px rgba(0,0,0,0.5);
+    background:linear-gradient(to right,#444 0%,#222 100%)
+  }
+  
+  .a,.g,.f,.d,.c {
+    margin:0 0 0 -1em
+  }
+.bvc
+{
+  padding-left: 80%;
+  padding-top: 30px;
+}
+.bc
+{
+  float: left;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bad
+{
+    /* border: black; */
+    padding:5% 0 0 23%;
+}
+.row
+{
+    width: 100%;
+}
+.cad
+{
+    padding:20px 0 0 40%;
+    float: left;
+}
+.dad
+{
+    padding:20px 0 0 200px;
+}
+.box-one
+{
+ /* background-color: blue; */
+ padding: 10px 0 0 80px;
+ border:10px solid black;
+ margin: 100px 350px; 
+}
+.cad{
+    padding:20px 0 30px 200px;
+}

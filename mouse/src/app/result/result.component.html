@@ -1,0 +1,24 @@
+<body>
+    <div  *ngIf="!x">
+    <div class="row a">
+    <h1 style="color: black;font-size: 60px;">you won</h1>
+</div>
+
+<div class="row b">
+    <p style="color: black;font-size: 40px;">Here is a gift for you Tap to open</p>
+</div>
+<div class="row c">
+<a (click)="fun()"><img src="../../assets/gift.gif"></a>
+</div>
+</div>
+<div  *ngIf="x">
+    <div class="row zxy">
+        <a class="zxy" style="font-size: 50px;color: black;" routerLink="/Main" routerLinkActive="active"><img src="../../assets/clos.png"></a>
+    </div>
+    <div class="l">
+   <img src="{{a}}">
+  
+</div>
+
+    </div>
+</body>

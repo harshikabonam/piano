@@ -44,7 +44,7 @@ this.audio.pause;
     this.pl="C3";
     this.key="White Key";
     this.xcv=true;
-    this.music=true;
+    // this.music=true;
   }
   d3(){
     this.audio = new Audio();

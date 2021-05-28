@@ -440,15 +440,15 @@ export class QuizComponent implements OnInit {
       this.p=this.audio1.src;
       this.audio1.play();
       console.log(this.audio1,this.audio);
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -669,15 +669,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
       this. audio.pause();
       this. audio1.pause();
-        // this.router.navigate(['/fail']);
+        this.router.navigate(['/fail']);
         this.abcd=true;
     }
 
@@ -897,15 +897,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
       this. audio.pause();
       this. audio1.pause();
-        // this.router.navigate(['/fail']);
+        this.router.navigate(['/fail']);
         this.abcd=true;
     }
 
@@ -1125,15 +1125,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
       this. audio.pause();
       this. audio1.pause();
-        // this.router.navigate(['/fail']);
+        this.router.navigate(['/fail']);
         this.abcd=true;
     }
 
@@ -1353,15 +1353,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
    this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -1581,15 +1581,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
       this. audio.pause();
       this. audio1.pause();
-        // this.router.navigate(['/fail']);
+        this.router.navigate(['/fail']);
         this.abcd=true;
     }
 
@@ -1809,15 +1809,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
       this. audio.pause();
       this. audio1.pause();
-        // this.router.navigate(['/fail']);
+        this.router.navigate(['/fail']);
         this.abcd=true;
     }
 
@@ -2038,15 +2038,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -2267,15 +2267,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -2496,15 +2496,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -2731,7 +2731,7 @@ export class QuizComponent implements OnInit {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -2952,15 +2952,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -3181,15 +3181,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -3410,15 +3410,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -3639,15 +3639,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -3868,15 +3868,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -4097,15 +4097,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -4326,15 +4326,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -4555,15 +4555,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -4784,15 +4784,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -5013,15 +5013,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -5242,15 +5242,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -5471,15 +5471,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
 
@@ -5700,15 +5700,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
 
@@ -5929,15 +5929,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -6158,15 +6158,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -6387,15 +6387,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -6616,15 +6616,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -6845,15 +6845,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -7074,15 +7074,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -7303,15 +7303,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -7532,15 +7532,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-      // this.router.navigate(['/fail']);
+      this.router.navigate(['/fail']);
       this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -7761,15 +7761,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -7990,15 +7990,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -8220,15 +8220,15 @@ export class QuizComponent implements OnInit {
     
       this.audio1.play();
      
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
       this.rest=this.count;
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.abcd=true;
     }
     if(this.p===this. au1.src)
@@ -8448,15 +8448,15 @@ export class QuizComponent implements OnInit {
      
     
       this.audio1.play();
-    // this. audio1.pause(); 
-      // this.router.navigate(['/result'])
+    this. audio1.pause(); 
+      this.router.navigate(['/result'])
     }
     else
     {
 
     this. audio.pause();
     this. audio1.pause();
-       // this.router.navigate(['/fail']);
+       this.router.navigate(['/fail']);
        this.rest=this.count;
        this.abcd=true;
     }
